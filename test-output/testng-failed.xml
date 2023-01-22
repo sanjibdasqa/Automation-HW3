@@ -6,7 +6,7 @@
       <class name="testPages.HomepageTest">
         <methods>
           <include name="tearUp"/>
-          <include name="use_of_selected_in_check_box"/>
+          <include name="use_of_navigate_method"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- testPages.HomepageTest -->
