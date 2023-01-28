@@ -33,8 +33,8 @@ public class BaseClass {
 		 * + "/driver/chromedriver.exe");
 		 */
 
-		System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
-		driver = new ChromeDriver();
+		//System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
+		//driver = new ChromeDriver();
 
 		// System.setProperty("Webdriver.gecko.driver", "./driver/geckodriver.exe");
 		// driver = new FirefoxDriver();
@@ -42,8 +42,8 @@ public class BaseClass {
 		// System.setProperty("webdriver.edge.driver", "./driver/msedgedriver.exe");
 		// driver = new EdgeDriver();
 
-		// WebDriverManager.chromedriver().setup();
-		// driver = new ChromeDriver();
+		WebDriverManager.chromedriver().setup();
+		 driver = new ChromeDriver();
 
 		config = new Configuration();
 		driver.get(config.getProperty((URL)));
